@@ -28,7 +28,8 @@
     "extends": [
       "react-app",
       "react-app/jest",
-      "plugin:storybook/recommended"
+      "plugin:storybook/recommended",
+      "prettier"
     ],
     "overrides": [
       {
@@ -65,9 +66,14 @@
     "@storybook/react": "^6.5.10",
     "@storybook/testing-library": "^0.0.13",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-storybook": "^0.6.4",
+    "prettier": "2.7.1",
     "prop-types": "^15.8.1",
     "typescript": ">=3.3.1 <4.8.0",
     "webpack": "^5.74.0"
+  },
+  "prettier": {
+    "singleQuote": true
   }
 }
